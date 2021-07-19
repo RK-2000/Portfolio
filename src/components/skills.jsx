@@ -7,7 +7,7 @@ const Skills = () => {
             <React.Fragment>
                 <div className="container" id="narrow">
                     <div className="row " id="main-card">
-                        <div className="col-12 col-lg-4 text-center skill-sec divider">
+                        <div className="col-12 col-lg-4  skill-sec divider text-center">
                             <img src={designer} />
                             <h3 className="heading-skills">Designing</h3>
                             <p className="para-skills">
@@ -25,7 +25,7 @@ const Skills = () => {
                                 Designing Tools
                             </p>
                             <p>
-                                <ul>
+                                <ul className="items">
                                     <li>
                                         Adobe Xd      
                                     </li>
@@ -54,7 +54,7 @@ const Skills = () => {
                             <p className="sub-heading ">
                                 Dev Tools and Frameworks
                             </p>
-                            <ul>
+                            <ul className="items">
                                 <li>
                                     Django
                                 </li>
@@ -88,7 +88,7 @@ const Skills = () => {
                                 Accomplishment
                             </p>
                             <p>
-                                <ul>
+                                <ul className="items">
                                     <li>
                                         Qualified for Google CodeJam 2020 - 75 pts
                                     </li>
