@@ -1,0 +1,116 @@
+#hello-btn{
+    border-radius: 30px;
+    border: solid #7510F7 2px;
+    color: #7510F7;
+    font-size: 18px;
+    margin-top: 3vh;
+    margin-right: 4vw;
+    background-color: transparent;
+    }
+
+#hello-btn:hover{
+    background: #7510F7;
+    color: white;
+}
+#intro-1{
+    margin-top: 8vh;
+}
+#intro-heading{
+    font-family: "eurostile";
+    font-size: 7vh;
+}
+#intro-para{
+    font-size: 20px;
+}
+#avatar{
+    margin-top: 6vh;
+   
+}
+#illustration{
+    padding-top: 5vh;
+    margin-top: 10vh;
+    max-width: 700px;
+}
+#blue{
+    margin: 0%;
+    width: 100%;
+    overflow-x: hidden;
+    background: #7510F7;
+    z-index: -100;
+
+}
+#intro-2-heading{
+    padding-top: 20vh;
+    font-family: "eurostile";
+    color: white;
+    text-align: center;
+}
+@media only screen and (min-width:731px) {
+    #intro-2-para{
+        padding: 10px 12vw;
+        color: white;
+        font-size: 18px;
+        text-align: center;
+        padding-bottom: 20vh;
+    }    
+}
+
+#narrow{
+  padding-left: 25px;
+  padding-right: 25px;
+}
+#main-card{
+    margin-top: -50px;
+    margin-bottom: 100px;
+    border: transparent solid 0px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border-radius: 15px;
+    padding-top: 10px;
+    z-index: 100;
+    background-color: #fff;
+
+}
+.skill-sec{
+    padding-top: 50px;
+    
+}
+.divider{
+    border-right: rgba(0, 0, 0, 0.14) solid 1px;
+}
+
+@media screen and (max-width:720px){
+    .divider{
+        border-bottom:rgba(0, 0, 0, 0.14) solid 1px; 
+    }
+    #intro-2-para{
+        padding: 10px 2vw;
+        color: white;
+        font-size: 18px;
+        text-align: center;
+        padding-bottom: 20vh;
+    }    
+}
+.skill-sec{
+    padding-bottom: 50px;
+}
+.heading-skills{
+    margin-top: 30px;
+    font-family: "eurostile";
+}
+.para-skills{
+    margin:30px 20px;
+    font-size: 18px;
+}
+.sub-heading{
+    margin-top: 60px;
+    color: #7510F7;
+    font-size: 18px;
+}
+li{
+    margin: 8px 10px;
+    list-style: none;
+    text-decoration: none;
+}
+ul{
+    margin-bottom: 50px;
+}

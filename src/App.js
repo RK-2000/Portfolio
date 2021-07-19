@@ -1,25 +1,31 @@
-import logo from './logo.svg';
-import './App.css';
+import React, { Component } from 'react';
+import {Helmet} from 'react-helmet';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+import Navbar from './components/navbar';
+import IntroHeading from './components/introduction1';
+import Avatar from './components/avatar';
+import Illustration from './components/illustration';
+import Skills from './components/skills';
+
+
+class App extends Component {
+  state = {  }
+  render() { 
+    return ( 
+      <React.Fragment>
+        <Helmet>
+          <title>Ritik Shrivastava</title>
+          <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        </Helmet>
+        <Navbar/>
+        <IntroHeading/>
+        <Avatar/>
+        <Illustration/>
+        <Skills/>
+      </React.Fragment>
+     );
+  }
 }
+
 
 export default App;
