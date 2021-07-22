@@ -6,6 +6,7 @@ import IntroHeading from './components/introduction1';
 import Avatar from './components/avatar';
 import Illustration from './components/illustration';
 import Skills from './components/skills';
+import Connect from './components/connect';
 
 
 class App extends Component {
@@ -22,6 +23,7 @@ class App extends Component {
         <Avatar/>
         <Illustration/>
         <Skills/>
+        <Connect/>
       </React.Fragment>
      );
   }

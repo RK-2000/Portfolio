@@ -19,7 +19,8 @@ code {
 }
 
 @font-face {
-  font-family: 'eurostile.woff';
-  src: local('MyFont'), url(./fonts/eurostile.woff) format('woff');
+  font-family: 'eurostile';
+  src: local('Eurostile'), url(./fonts/eurostile.woff2) format('woff2');
 
 }
+

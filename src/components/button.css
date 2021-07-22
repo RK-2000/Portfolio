@@ -1,3 +1,5 @@
+
+
 #hello-btn{
     border-radius: 30px;
     border: solid #7510F7 2px;
@@ -18,6 +20,7 @@
 #intro-heading{
     font-family: "eurostile";
     font-size: 7vh;
+
 }
 #intro-para{
     font-size: 20px;
@@ -42,6 +45,7 @@
 #intro-2-heading{
     padding-top: 20vh;
     font-family: "eurostile";
+
     color: white;
     text-align: center;
 }
@@ -96,6 +100,7 @@
 .heading-skills{
     margin-top: 30px;
     font-family: "eurostile";
+  
 }
 .para-skills{
     margin:30px .1rem;
@@ -115,4 +120,24 @@ li{
     margin-left: 0%;
     padding: 0%;
     margin-bottom: 50px;
+}
+.banner{
+    padding: 30px 20px;
+    background-color: #141c3a;
+    box-shadow: 0 5px 5px 0 rgb(0,0,0,20%);
+    color: white;
+    border-radius: 10px;
+    margin-bottom: 50px;
+}
+.icons{
+    margin: 20px 10px;
+    text-decoration: none;
+    color: white;
+    width: 40px;
+    font-size: 30px;
+    border-radius: 50%;
+    
+}
+.icons:hover{
+    color: #f6404f;
 }
